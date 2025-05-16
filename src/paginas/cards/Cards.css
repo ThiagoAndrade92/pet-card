@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background: url('../src/assets/imagens/wallpaper-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card h1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    color: skyblue;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    
+}

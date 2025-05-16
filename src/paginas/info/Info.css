@@ -1,0 +1,15 @@
+.img-pet {
+    width: 60vw;
+}
+
+.img-pet img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width:992px) {
+    .img-pet {
+        width: 100%;
+    }
+}
